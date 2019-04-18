@@ -18,7 +18,7 @@ appState.decrement = function (){
 
 @observer export default class App extends Component {
   handleInc=()=>{
-   appState.increment()
+   appState.increment() 
   }
   handleDec=()=>{
     appState.decrement()
